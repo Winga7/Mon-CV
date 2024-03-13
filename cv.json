@@ -1,0 +1,70 @@
+{
+    "nom": "Petitjean",
+    "prenom": "Andy",
+    "adresse": "Rue du je me suis perdu 5, 1313 aidez moi",
+    "telephone": "0475690707",
+    "fonction": "Web Developer",
+    "competences": [
+        "Suite Office, Informatique général, Relationnel, Polyvalent"
+    ],
+    "centreDInteret": [
+        "Jeux Vidéo jouer et comprendre, Fauconnerie, Informatique en général, Culture Japonaise, Aviation, aéronautique, Domaine de l'espace"
+    ],
+    "langues": ["Français langue maternelle, Anglais niveaux A2"],
+    "propos": "De nature débrouillard et indépendant dans mon travail, j’aime apprendre de nouvelles technologies. Mes valeurs de travail : flexibilité, sang-froid et sérieux.",
+    "competence": [
+        {
+            "anneedeb": 2019,
+            "anneefin": 2020,
+            "societe": "Domino's Wavre",
+            "poste": "Responsable d'équipe chez",
+            "competences": [
+                "Management d'équipe, Responsabilité de la caisse, Gestion des stocks, Ouverture/Fermeture du magasin, Organisation des livraisons/productions, Optimisation des tâches quotidiennes"
+            ]
+        },
+        {
+            "anneedeb": 2019,
+            "anneefin": 2020,
+            "societe": "Domino's Wavre",
+            "poste": "Responsable d'équipe chez",
+            "competences": [
+                "Management d'équipe, Responsabilité de la caisse, Gestion des stocks, Ouverture/Fermeture du magasin, Organisation des livraisons/productions, Optimisation des tâches quotidiennes"
+            ]
+        },
+        {
+            "anneedeb": 2019,
+            "anneefin": 2020,
+            "societe": "Domino's Wavre",
+            "poste": "Responsable d'équipe chez",
+            "competences": [
+                "Management d'équipe, Responsabilité de la caisse, Gestion des stocks, Ouverture/Fermeture du magasin, Organisation des livraisons/productions, Optimisation des tâches quotidiennes"
+            ]
+        },
+        {
+            "anneedeb": 2019,
+            "anneefin": 2020,
+            "societe": "Domino's Wavre",
+            "poste": "Responsable d'équipe chez",
+            "competences": [
+                "Management d'équipe, Responsabilité de la caisse, Gestion des stocks, Ouverture/Fermeture du magasin, Organisation des livraisons/productions, Optimisation des tâches quotidiennes"
+            ]
+        }
+    ],
+    "etudeformation": [
+        {
+            "anneedeb": 2023,
+            "anneefin": 2025,
+            "competences": ["Bes Web Developper, Anglais UE-2"]
+        },
+        {
+            "anneedeb": 2012,
+            "anneefin": 2015,
+            "competences": [
+                "CESS, Qualification d'auxiliaire d'aide et d'accueil, gestion d'entreprises"
+            ]
+        }
+    ],
+    "autreexperiences": [
+        "Permis B, Animateur de centre de Vacances durant 2ans, Brevet d'Animateur de centre de Vacances "
+    ]
+}
