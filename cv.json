@@ -3,68 +3,80 @@
     "prenom": "Andy",
     "adresse": "Rue du je me suis perdu 5, 1313 aidez moi",
     "telephone": "0475690707",
+    "mail": "andypetitjean@hotmail.be",
     "fonction": "Web Developer",
-    "competences": [
-        "Suite Office, Informatique général, Relationnel, Polyvalent"
+    "competencespro": [
+        "Suite Office", "Informatique général", "Relationnel", "Polyvalent"
     ],
     "centreDInteret": [
-        "Jeux Vidéo jouer et comprendre, Fauconnerie, Informatique en général, Culture Japonaise, Aviation, aéronautique, Domaine de l'espace"
+        "Jeux Vidéo jouer et comprendre", "Fauconnerie", "Informatique en général", "Culture Japonaise", "Aviation", "aéronautique", "Domaine de l'espace"
     ],
-    "langues": ["Français langue maternelle, Anglais niveaux A2"],
-    "propos": "De nature débrouillard et indépendant dans mon travail, j’aime apprendre de nouvelles technologies. Mes valeurs de travail : flexibilité, sang-froid et sérieux.",
-    "competence": [
+    "langues": ["Français: langue maternelle", "Anglais: niveaux A2"],
+    "propos": "De nature débrouillard et indépendant dans mon travail, j’aime apprendre de nouvelles technologies.<br> Mes valeurs de travail : flexibilité, sang-froid et sérieux.",
+    "experiences": [
         {
             "anneedeb": 2019,
             "anneefin": 2020,
             "societe": "Domino's Wavre",
             "poste": "Responsable d'équipe chez",
             "competences": [
-                "Management d'équipe, Responsabilité de la caisse, Gestion des stocks, Ouverture/Fermeture du magasin, Organisation des livraisons/productions, Optimisation des tâches quotidiennes"
+                "Management d'équipe", "Responsabilité de la caisse", "Gestion des stocks", "Ouverture/Fermeture du magasin", "Organisation des livraisons/productions", "Optimisation des tâches quotidiennes"
             ]
         },
         {
-            "anneedeb": 2019,
-            "anneefin": 2020,
-            "societe": "Domino's Wavre",
-            "poste": "Responsable d'équipe chez",
+            "anneedeb": 2017,
+            "anneefin": 2017,
+            "societe": "MSGM Lukoil Bierges",
+            "poste": "Employé polyvalent chez",
             "competences": [
-                "Management d'équipe, Responsabilité de la caisse, Gestion des stocks, Ouverture/Fermeture du magasin, Organisation des livraisons/productions, Optimisation des tâches quotidiennes"
+                "Gestion de caisse", "Ouverture/fermeture du magasin", "Réassort des rayons", "Gestion de la loterie", "Gestion des pompes", "Gestion des factures clients"
             ]
         },
         {
-            "anneedeb": 2019,
-            "anneefin": 2020,
-            "societe": "Domino's Wavre",
-            "poste": "Responsable d'équipe chez",
+            "anneedeb": 2016,
+            "anneefin": 2016,
+            "societe": "BPOST",
+            "poste": "Livreur chez",
             "competences": [
-                "Management d'équipe, Responsabilité de la caisse, Gestion des stocks, Ouverture/Fermeture du magasin, Organisation des livraisons/productions, Optimisation des tâches quotidiennes"
+                "Gestion des tournées exceptionnelles", "Livraisons des clients"
             ]
         },
         {
-            "anneedeb": 2019,
-            "anneefin": 2020,
-            "societe": "Domino's Wavre",
-            "poste": "Responsable d'équipe chez",
-            "competences": [
-                "Management d'équipe, Responsabilité de la caisse, Gestion des stocks, Ouverture/Fermeture du magasin, Organisation des livraisons/productions, Optimisation des tâches quotidiennes"
-            ]
+            "anneedeb": 2015,
+            "anneefin": 2016,
+            "societe": "Proximédia", 
+            "poste": "Délégué Commercial chez"
+        },
+        {
+            "anneedeb": 2014,
+            "anneefin": 2015,
+            "societe": "McDonald's Waterloo", 
+            "poste": "Employé polyvalent chez"
+        },
+        {
+            "anneedeb": 2011,
+            "anneefin": 2014,
+            "societe": "CSC",
+            "poste": "Employé polyvalent chez"
         }
     ],
     "etudeformation": [
         {
             "anneedeb": 2023,
             "anneefin": 2025,
-            "competences": ["Bes Web Developper, Anglais UE-2"]
+            "lieu": "Ifosup Wavre",
+            "competences": ["Bes Web Developper", "Anglais UE-2"]
         },
         {
             "anneedeb": 2012,
             "anneefin": 2015,
+            "lieu": "CEFA Court-Saint-Etienne",
             "competences": [
-                "CESS, Qualification d'auxiliaire d'aide et d'accueil, gestion d'entreprises"
+                "CESS", "Qualification d'auxiliaire d'aide et d'accueil", "gestion d'entreprises"
             ]
         }
     ],
     "autreexperiences": [
-        "Permis B, Animateur de centre de Vacances durant 2ans, Brevet d'Animateur de centre de Vacances "
+        "Permis B", "Animateur de centre de Vacances durant 2ans", "Brevet d'Animateur de centre de Vacances"
     ]
 }

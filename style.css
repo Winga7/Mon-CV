@@ -125,3 +125,6 @@ h2{
 .liste-experience{
     list-style-type: circle;
 }
+div#autres ul li{
+    list-style-type: none;
+}
