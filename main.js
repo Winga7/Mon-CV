@@ -39,10 +39,10 @@ const autres = cv.autreexperiences.map((autre) => {return `<li>${autre}</li>`}).
 document.querySelector("#app").innerHTML = `
 <div class="CV-Conteneur">
 <div class="Colonne-Gauche">
-    <img class="portrait" src="images/bandicam_2021-03-13_23-05-00-707.png" alt="Portrait">
+    <img class="portrait" src="/images/bandicam_2021-03-13_23-05-00-707.png" alt="Portrait">
     <div class="section">
     <p>
-        <img src="/icon/linkedin.png" alt="Icone linkedin"> ${cv.prenom} ${cv.nom}
+        <img src="./icon/linkedin.png" alt="Icone linkedin"> ${cv.prenom} ${cv.nom}
     </p>
     </div>
     <div class="section">
