@@ -1,18 +1,35 @@
 import "./style.css";
 import cv from "/cv.json";
 
-const skills = cv.competencespro.map((skill) => {return `<li><img src="icon/check.png" alt="check">${skill}</li>`}).join("")
-const langues = cv.langues.map((lang) => {return `<li>${lang}</li>`}).join("")
-const centre = cv.centreDInteret.map((int) => {return `<li>${int}</li>`}).join("")
+const skills = cv.competencespro
+	.map((skill) => {
+		return `<li><img src="icon/check.png" alt="check">${skill}</li>`;
+	})
+	.join("");
+const langues = cv.langues
+	.map((lang) => {
+		return `<li>${lang}</li>`;
+	})
+	.join("");
+const centre = cv.centreDInteret
+	.map((int) => {
+		return `<li>${int}</li>`;
+	})
+	.join("");
 const competences = (comps) => {
-    if(comps != null){
-        return comps.map((comp) => {return `<li>${comp}</li>`}).join("")
-    } else {
-        return ""
-    }
-}
-const experiences = cv.experiences.map((exp) => {
-    return `
+	if (comps != null) {
+		return comps
+			.map((comp) => {
+				return `<li>${comp}</li>`;
+			})
+			.join("");
+	} else {
+		return "";
+	}
+};
+const experiences = cv.experiences
+	.map((exp) => {
+		return `
     <div class="section">
         <p><strong>${exp.anneedeb}<img src="icon/prochain.png" alt="fleche-droite">${exp.anneefin}</strong>
         </p>
@@ -21,9 +38,12 @@ const experiences = cv.experiences.map((exp) => {
         <ul>
             ${competences(exp.competences ? exp.competences : null)}
         </ul>
-    </div>`
-}).join("")
-const formation = cv.etudeformation.map((form) => {return `<p>
+    </div>`;
+	})
+	.join("");
+const formation = cv.etudeformation
+	.map((form) => {
+		return `<p>
     <strong>
     ${form.anneedeb} <img src="icon/prochain.png" alt="fleche-droite"> ${form.anneefin}
     </strong>
@@ -33,8 +53,14 @@ const formation = cv.etudeformation.map((form) => {return `<p>
 </p>
 <ul>
     ${competences(form.competences)}
-</ul>`}).join("")
-const autres = cv.autreexperiences.map((autre) => {return `<li>${autre}</li>`}).join("")
+</ul>`;
+	})
+	.join("");
+const autres = cv.autreexperiences
+	.map((autre) => {
+		return `<li>${autre}</li>`;
+	})
+	.join("");
 
 document.querySelector("#app").innerHTML = `
 <div class="CV-Conteneur">
@@ -76,7 +102,7 @@ document.querySelector("#app").innerHTML = `
     <p>${cv.fonction}</p>
     <ul class="infos">
         <li><img src="icon/e-mail.png" alt="Mail"><a href="mailto:${cv.mail}"> ${cv.mail}</a></li>
-        <li><img src="icon/telephone-portable.png" alt="telephone-portable"> ${cv.telephone}</li>
+        <li><img src="icon/telephone-portable.png" alt="telephone-portable"><a href="tel:${cv.telephone}">${cv.telephone}</a></li>
         <li><img src="icon/carte.png" alt="Carte"> ${cv.adresse}</li>
     </ul>
     </div>
